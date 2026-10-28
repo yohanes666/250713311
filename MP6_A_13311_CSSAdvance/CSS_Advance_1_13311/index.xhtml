@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Registrasi Data Mahasiswa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>FORMULIR REGISTRASI DATA MAHASISWA</h1>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>
+                    <label for="namamhs"><strong>Nama Mahasiswa</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="namamhs" name="namamhs" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Jenis Kelamin</strong></td>
+                <td>
+                    <input type="radio" id="laki" name="jk" value="Laki-Laki" />
+                    <label for="laki">Laki-Laki</label>
+                    <input type="radio" id="perempuan" name="jk" value="Perempuan" />
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="prodi"><strong>Program Studi</strong></label>
+                </td>
+                <td>
+                    <select id="prodi" name="prodi">
+                        <option value="Informatika">Informatika</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Teknik Industri">Teknik Industri</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email"><strong>Alamat Email</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="email" name="email" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telepon"><strong>Nomor Telepon</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="telepon" name="telepon" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password"><strong>Pasword</strong></label>
+                </td>
+                <td>
+                    <input type="password" id="pasword" name="pasword" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo"><strong>Foto</strong></label>
+                </td>
+                <td>
+                    <input type="file" id="Foto" name="Foto" size="18"
+                           accept="image/gif, image/jpeg, image/png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="namasm"><strong>Nama Sekolah Asal</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="namasm" name="namasm" size="30" />
+                </td>
+            </tr>
+            <tr>
+                <td class="top"><strong>Hal Favorit</strong></td>
+                <td>
+                    <p><strong>Musik</strong><br />
+                        <input type="checkbox" id="musik1" name="musik" value="Pop" />
+                        <label for="musik1">Pop</label>
+                        <input type="checkbox" id="musik2" name="musik" value="Rock" />
+                        <label for="musik2">Rock</label>
+                        <input type="checkbox" id="musik3" name="musik" value="Jazz" />
+                        <label for="musik3">Jazz</label>
+                        <input type="checkbox" id="musik4" name="musik" value="K-Pop" />
+                        <label for="musik4">K-Pop</label>
+                        <input type="checkbox" id="musik5" name="musik" value="Klasik" />
+                        <label for="musik5">Klasik</label>
+                    </p>
+
+                    <p><strong>Film</strong><br />
+                        <input type="checkbox" id="film1" name="film" value="Drama" />
+                        <label for="film1">Drama</label>
+                        <input type="checkbox" id="film2" name="film" value="Action" />
+                        <label for="film2">Action</label>
+                        <input type="checkbox" id="film3" name="film" value="Sci-Fi" />
+                        <label for="film3">Sci-Fi</label>
+                        <input type="checkbox" id="film4" name="film" value="Komedi" />
+                        <label for="film4">Komedi</label>
+                        <input type="checkbox" id="film5" name="film" value="Horor" />
+                        <label for="film5">Horor</label>
+                        <input type="checkbox" id="film6" name="film" value="Animasi" />
+                        <label for="film6">Animasi</label>
+                    </p>
+
+                    <p><strong>Hobi</strong><br />
+                        <input type="checkbox" id="hobi1" name="hobi" value="Membaca" />
+                        <label for="hobi1">Membaca</label>
+                        <input type="checkbox" id="hobi2" name="hobi" value="Memasak" />
+                        <label for="hobi2">Memasak</label>
+                        <input type="checkbox" id="hobi3" name="hobi" value="Menggambar" />
+                        <label for="hobi3">Menggambar</label>
+                        <input type="checkbox" id="hobi4" name="hobi" value="Gaming" />
+                        <label for="hobi4">Gaming</label>
+                        <input type="checkbox" id="hobi5" name="hobi" value="Fotografi" />
+                        <label for="hobi5">Fotografi</label>
+                    </p>
+
+                    <p><strong>Olahraga</strong><br />
+                        <input type="checkbox" id="olahraga1" name="olahraga" value="Sepak Bola" />
+                        <label for="olahraga1">Sepak Bola</label>
+                        <input type="checkbox" id="olahraga2" name="olahraga" value="Basket" />
+                        <label for="olahraga2">Basket</label>
+                        <input type="checkbox" id="olahraga3" name="olahraga" value="Badminton" />
+                        <label for="olahraga3">Badminton</label>
+                        <input type="checkbox" id="olahraga4" name="olahraga" value="Renang" />
+                        <label for="olahraga4">Renang</label>
+                        <input type="checkbox" id="olahraga5" name="olahraga" value="Bersepeda" />
+                        <label for="olahraga5">Bersepeda</label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="top">
+                    <label for="resume"><strong>Resume</strong></label>
+                </td>
+                <td>
+                    <textarea id="resume" name="resume" rows="10" cols="23"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <div class="button-container">
+            <input type="submit" name="Simpan" value="Simpan" />
+        </div>
+    </form>
+</body>
+</html>

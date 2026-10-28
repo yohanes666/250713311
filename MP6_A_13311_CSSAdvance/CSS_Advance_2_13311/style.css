@@ -1,0 +1,141 @@
+
+/* Pengaturan halaman */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: #1e6091;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+/* Judul bagian */
+h2 {
+    color: #1e6091;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Formulir di tengah halaman */
+form {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+/* Sel tabel */
+td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+/* Kolom pertama */
+td:first-child {
+    width: 32%;
+    background-color: #eaf3f8;
+}
+
+/* Perataan vertikal */
+td.top {
+    vertical-align: top;
+}
+
+/* Jarak paragraf topik */
+p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+/* Input teks */
+input[type="text"] {
+    width: 100%;
+    max-width: 230px;
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Pilihan program studi */
+select {
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+/* Area alasan */
+textarea {
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    max-width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Input file */
+input[type="file"] {
+    max-width: 100%;
+}
+
+/* Tombol Simpan di luar tabel */
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Tombol Simpan */
+input[type="submit"] {
+    padding: 10px 25px;
+    background-color: #1e6091;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efek tombol */
+input[type="submit"]:hover {
+    background-color: #16476a;
+}
+
+/* Tampilan layar kecil */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    td {
+        padding: 6px;
+    }
+
+    input[type="text"] {
+        max-width: 100%;
+    }
+}

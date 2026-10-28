@@ -1,0 +1,126 @@
+
+/* Pengaturan halaman */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: #1e6091;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Formulir di tengah halaman */
+form {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+/* Sel tabel */
+td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    overflow-wrap: break-word;
+}
+
+/* Kolom pertama */
+td:first-child {
+    width: 35%;
+    background-color: #eaf3f8;
+}
+
+/* Perataan vertikal */
+td.top {
+    vertical-align: top;
+}
+
+/* Jarak antar kelompok favorit */
+p {
+    margin: 8px 0 14px;
+    line-height: 1.8;
+}
+
+/* Input teks dan password */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    max-width: 230px;
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Pilihan program studi */
+select {
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+/* Area resume */
+textarea {
+    padding: 6px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    max-width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Tombol di luar tabel */
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Tombol SAVE */
+input[type="submit"] {
+    padding: 9px 25px;
+    background-color: #1e6091;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efek tombol */
+input[type="submit"]:hover {
+    background-color: #16476a;
+}
+
+/* Tampilan layar kecil */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    td {
+        padding: 6px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        max-width: 100%;
+    }
+}
